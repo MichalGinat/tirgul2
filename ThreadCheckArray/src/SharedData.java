@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/**
+ * @author micha
+ *	class for shared data
+ */
 public class SharedData 
 {
 	//private int [] array;
@@ -8,12 +12,21 @@ public class SharedData
 	private boolean flag;
 	private final int b;
 	
+	/**
+	 * @param array
+	 * @param b
+	 * constructor
+	 */
 	public SharedData(ArrayList<Integer> array, int b) {
 		
 		this.array = array;
 		this.b = b;
 	}
 
+	/**
+	 * @return
+	 * getters and setters
+	 */
 	public boolean[] getWinArray() 
 	{
 		return winArray;
